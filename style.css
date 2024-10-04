@@ -29,3 +29,14 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.project-image {
+  width: 150px; /* Adjust to your preferred size */
+  height: auto; /* Keeps the aspect ratio consistent */
+  margin-top: 10px;
+  border: 2px solid white;
+}
+
+.project-image:hover {
+  opacity: 0.8; /* Hover effect to make it interactive */
+}
