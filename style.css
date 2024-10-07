@@ -1,3 +1,11 @@
+.about-container {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Centers the content vertically */
+  margin-top: 20px;
+  gap: 20px; /* Space between the photo and about me section */
+}
+
 body {
   background-color: black;
   color: white;
