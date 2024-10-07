@@ -5,6 +5,12 @@
   margin-top: 20px;
   gap: 20px; /* Space between the photo and about me section */
 }
+.profile-photo {
+  width: 150px;  /* Adjust the width as per your preference */
+  height: auto;  /* Keep aspect ratio */
+  border-radius: 50%; /* Makes the image circular */
+  border: 2px solid white; /* Add a border for aesthetics */
+}
 
 body {
   background-color: black;
