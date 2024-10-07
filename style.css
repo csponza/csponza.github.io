@@ -8,7 +8,6 @@
 .profile-photo {
   width: 150px;  /* Adjust the width as per your preference */
   height: auto;  /* Keep aspect ratio */
-  border-radius: 50%; /* Makes the image circular */
   border: 2px solid white; /* Add a border for aesthetics */
 }
 
