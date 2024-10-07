@@ -9,6 +9,7 @@
   width: 150px;  /* Adjust the width as per your preference */
   height: auto;  /* Keep aspect ratio */
   border: 2px solid white; /* Add a border for aesthetics */
+  border-radius: 0;
 }
 
 body {
