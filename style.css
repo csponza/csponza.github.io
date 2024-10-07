@@ -6,7 +6,7 @@
   gap: 20px; /* Space between the photo and about me section */
 }
 .profile-photo {
-  width: 200px;  /* Adjust the width as per your preference */
+  width: 300px;  /* Adjust the width as per your preference */
   height: auto;  /* Keep aspect ratio */
   border: 2px solid white; /* Add a border for aesthetics */
   border-radius: 0;
