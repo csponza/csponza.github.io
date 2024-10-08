@@ -62,3 +62,7 @@ a:hover {
   margin: 20px 0; /* Space between projects */
   background-color: rgba(255, 255, 255, 0.1); /* Optional: Light background for contrast */
 }
+
+.rotated-image {
+  transform: rotate(90deg); /* Rotates the image 90 degrees */
+}
