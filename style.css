@@ -54,3 +54,11 @@ a:hover {
 .project-image:hover {
   opacity: 0.8; /* Hover effect to make it interactive */
 }
+
+.project {
+  border: 2px solid white; /* Border around each project */
+  border-radius: 5px; /* Optional: Slightly rounded corners */
+  padding: 15px; /* Space inside the border */
+  margin: 20px 0; /* Space between projects */
+  background-color: rgba(255, 255, 255, 0.1); /* Optional: Light background for contrast */
+}
