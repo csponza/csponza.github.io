@@ -1,68 +1,25 @@
-.about-container {
-  display: flex;
-  justify-content: center; /* Centers the content horizontally */
-  align-items: center; /* Centers the content vertically */
-  margin-top: 20px;
-  gap: 20px; /* Space between the photo and about me section */
-}
-.profile-photo {
-  width: 300px;  /* Adjust the width as per your preference */
-  height: auto;  /* Keep aspect ratio */
-  border: 2px solid white; /* Add a border for aesthetics */
-  border-radius: 0;
-}
-
-body {
-  background-color: black;
-  color: white;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
-}
-
+/* Header styling for name and resume link */
 header {
   background-color: #222;
   color: white;
-  padding: 10px 0;
-  text-align: center;
+  padding: 10px 20px; /* Add padding to the header for spacing */
+  display: flex; /* Flexbox for alignment */
+  justify-content: space-between; /* Align content to the left and right */
+  align-items: center; /* Vertically center items */
 }
 
-section {
-  margin-top: 20px;
+.name {
+  margin: 0;
+  font-size: 1.5em; /* Adjust font size */
+  font-weight: bold;
 }
 
-h1, h2 {
-  color: white; /* Ensures that headings are also white */
-}
-
-a {
-  color: #00aaff; /* Adds a nice contrasting blue for links */
+.resume-link {
+  font-size: 1em; /* Match styling to the site theme */
+  color: #00aaff; /* Same as other links */
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-.project-image {
-  width: 150px; /* Adjust to your preferred size */
-  height: auto; /* Keeps the aspect ratio consistent */
-  margin-top: 10px;
-  border: 2px solid white;
-}
-
-.project-image:hover {
-  opacity: 0.8; /* Hover effect to make it interactive */
-}
-
-.project {
-  border: 2px solid white; /* Border around each project */
-  border-radius: 5px; /* Optional: Slightly rounded corners */
-  padding: 15px; /* Space inside the border */
-  margin: 20px 0; /* Space between projects */
-  background-color: rgba(255, 255, 255, 0.1); /* Optional: Light background for contrast */
-}
-
-.rotated-image {
-  transform: rotate(90deg); /* Rotates the image 90 degrees */
+.resume-link:hover {
+  text-decoration: underline; /* Hover effect for the link */
 }
