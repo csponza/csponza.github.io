@@ -1,25 +1,71 @@
+/* General reset and body styling */
+body {
+  background-color: black; /* Restore black background */
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 /* Header styling for name and resume link */
 header {
   background-color: #222;
   color: white;
-  padding: 10px 20px; /* Add padding to the header for spacing */
-  display: flex; /* Flexbox for alignment */
-  justify-content: space-between; /* Align content to the left and right */
-  align-items: center; /* Vertically center items */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.name {
+header h1 {
   margin: 0;
-  font-size: 1.5em; /* Adjust font size */
-  font-weight: bold;
+  font-size: 1.5em;
 }
 
 .resume-link {
-  font-size: 1em; /* Match styling to the site theme */
-  color: #00aaff; /* Same as other links */
+  font-size: 1em;
+  color: #00aaff;
   text-decoration: none;
 }
 
 .resume-link:hover {
-  text-decoration: underline; /* Hover effect for the link */
+  text-decoration: underline;
+}
+
+/* About section styling */
+.about-container {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  align-items: center; /* Vertically center content */
+  margin: 20px;
+  gap: 20px;
+}
+
+.profile-photo {
+  width: 300px; /* Adjust the photo width */
+  height: auto; /* Maintain aspect ratio */
+  border: 2px solid white;
+}
+
+.about-me {
+  max-width: 600px; /* Optional: limit the width of the text block */
+}
+
+.about-me h2 {
+  margin-top: 0;
+}
+
+a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Section styling */
+section {
+  margin: 20px;
+  text-align: center;
 }
